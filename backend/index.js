@@ -26,7 +26,7 @@ app.use(cors({origin: "http://localhost:5173" , credentials: true}));
 
 // Set up API routes for user and resume functionalities
 app.use("/api", userRoutes);
-app.use("/api", resumeRoutes); t
+app.use("/api", resumeRoutes); 
 
 
 // Check if the application is running in production mode
