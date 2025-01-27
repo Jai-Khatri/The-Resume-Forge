@@ -60,58 +60,58 @@ const Home = () => {
               </div>
 
               {/* Step 3 */}
-              <div className="bg-gray-800 bg-opacity-80 p=6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                <h3 className="text-xl font-semibold mb=2 text-blue-400">Step 3</h3>
-                <p className="text-gray=300">Preview your resume in real-time and make adjustments as needed.</p>
+              <div className="bg-gray-800 bg-opacity-80 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 className="text-xl font-semibold mb-2 text-blue-400">Step 3</h3>
+                <p className="text-gray-300">Preview your resume in real-time and make adjustments as needed.</p>
               </div>
 
                {/* Step 4 */}
-               <div className="bg-gray=800 bg-opacity=80 p=6 rounded-lg shadow-lg transition-transform transform hover:scale=105">
-                <h3 className="text-xl font-semibold mb=2 text-blue=400">Step 4</h3>
-                <p className="text-gray=300">Use our integrated AI for your summary to help you build an ATS friendly resume.</p>
+               <div className="bg-gray-800 bg-opacity-80 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 className="text-xl font-semibold mb-2 text-blue-400">Step 4</h3>
+                <p className="text-gray-300">Use our integrated AI for your summary to help you build an ATS friendly resume.</p>
               </div>
 
               {/* Step 5 */}
-              <div className="bg-gray=800 bg-opacity=80 p=6 rounded-lg shadow-lg transition-transform transform hover:scale=105">
-                <h3 className="text-xl font-semibold mb=2 text-blue=400">Step 5</h3>
-                <p className="text-gray=300">Download your polished resume in PDF format and start applying!</p>
+              <div className="bg-gray-800 bg-opacity-80 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 className="text-xl font-semibold mb-2 text-blue-400">Step 5</h3>
+                <p className="text-gray-300">Download your polished resume in PDF format and start applying!</p>
               </div>
 
               {/* Step 6 */}
-              <div className="bg-gray=800 bg-opacity=80 p=6 rounded-lg shadow-lg transition-transform transform hover:scale=105">
-                <h3 className="text-xl font-semibold mb=2 text-blue=400">Step 6 (Doesn't exist)</h3>
-                <p className="text-gray=300">Enjoy your ATS friendly resume tailored according to your job role!</p>
+              <div className="bg-gray-800 bg-opacity-80 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 className="text-xl font-semibold mb-2 text-blue-400">Step 6 (Doesn't exist)</h3>
+                <p className="text-gray-300">Enjoy your ATS friendly resume tailored according to your job role!</p>
               </div>
 
             </div>
           </section>
 
           {/* Testimonials Section */}
-          <section className="mt=12 max-w-screen-xl mx-auto px=4">
-            <h2 className="text=3xl font-semibold text-white mb=8 text-center">What Our Users Say</h2>
-            <div className="flex flex-wrap justify-center gap-x=6 gap-y=4">
+          <section className="mt-12 max-w-screen-xl mx-auto px-4">
+            <h2 className="text-3xl font-semibold text-white mb-8 text-center">What Our Users Say</h2>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-4">
               {[
                 { name: "Alice Johnson", testimonial: "The Resume Forge helped me land my dream job!" },
                 { name: "Mark Smith", testimonial: "Creating my resume was so easy and fun!" },
                 { name: "Emily Davis", testimonial: "I loved the AI features that guided me through the process." }
               ].map((item, index) => (
-                <div key={index} className="bg-gray=700 p=4 rounded-lg shadow-md w-full sm:w=[300px]">
-                  <p className="text-gray=300 italic">"{item.testimonial}"</p>
-                  <p className="text-right text-white mt=2">— {item.name}</p>
+                <div key={index} className="bg-gray-700 p-4 rounded-lg shadow-md w-full sm:w=[300px]">
+                  <p className="text-gray-300 italic">"{item.testimonial}"</p>
+                  <p className="text-right text-white mt-2">— {item.name}</p>
                 </div>
               ))}
             </div>
           </section>
 
           {/* Footer Section */}
-          <footer className="text-center mt-auto mb=4 py=8">
-            <p className="text-gray=400">&copy; 2025 The Resume Forge. All rights reserved.</p>
-            <Link to="/about" className="text-blue=400 hover:underline">Learn more about us</Link>
-            <div className="mt=4">
+          <footer className="text-center mt-auto mb-4 py-8">
+            <p className="text-gray-400">&copy; 2025 The Resume Forge. All rights reserved.</p>
+            <Link to="/about" className="text-blue-400 hover:underline">Learn more about us</Link>
+            <div className="mt-4">
               {/* Social Media Links */}
-              <a href="#" className="text-gray=400 hover:text-white mx=2">Facebook</a>
-              <a href="#" className="text-gray=400 hover:text-white mx=2">Twitter</a>
-              <a href="#" className="text-gray=400 hover:text-white mx=2">LinkedIn</a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">Facebook</a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">Twitter</a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">LinkedIn</a>
             </div>
           </footer>
         </main>
